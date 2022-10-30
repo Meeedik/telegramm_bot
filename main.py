@@ -3,7 +3,7 @@ import telebot
 import requests
 from bs4 import BeautifulSoup
 import time
-from telegramm_bot.config import TOKEN
+from config import TOKEN
 
 bot = telebot.TeleBot(TOKEN)
 my_date = datetime.datetime.now()
